@@ -1,1 +1,54 @@
-// TODO
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 15rem;
+  margin-top: 5rem;
+}
+.main-container > *:first-child {
+  margin-bottom: 4rem;
+}
+
+.posts-container {
+  .posts-item {
+    margin-left: 0.5rem;
+    margin-bottom: 3rem;
+  }
+  .footer-post-container {
+    display: flex;
+    margin-top: 1.5rem;
+    div {
+      display: flex;
+      align-items: center;
+    }
+    div > span {
+      margin-right: 2rem;
+    }
+  }
+  .posts-item:last-child {
+    margin-bottom: 0 !important;
+  }
+  h2 {
+    cursor: pointer;
+    color: #f8f8f8;
+    font-weight: bolder;
+    margin-bottom: 0.3rem;
+  }
+  h2:hover {
+    filter: brightness(4);
+  }
+  .icon {
+    margin-right: 0.5rem;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.load-posts-button {
+  margin-left: 0.5rem;
+  color: #ff57b2;
+  background-color: transparent;
+  border-style: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+}

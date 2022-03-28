@@ -1,1 +1,49 @@
-// TODO
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+}
+
+.header-container {
+  display: block;
+  margin: 0.1rem auto 0 auto;
+  width: 700px;
+}
+
+.details-container {
+  display: flex;
+  margin-top: 1rem;
+  .icon {
+    margin-right: 0.5rem;
+    width: 20px;
+    height: 20px;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+  }
+  div:nth-child(even) {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+.body-container {
+  display: block;
+  margin: 3rem auto 0 auto;
+  width: 700px;
+  h1 {
+    color: white !important;
+  }
+}
+
+.text-container {
+  margin-top: 5rem;
+}
+.image-container {
+  margin-top: 1.5rem;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
